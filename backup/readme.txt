@@ -1,6 +1,6 @@
 C:\Dev_a\it30a-udtohan\backup
 
-CREATE DATABASE <database_name>;
+CREATE DATABASE <database_name>;mysqldump -u root -p --databases library_db > "C:\Dev_a\it30a-udtohan\backup\%date:~10,4%-%date:~4,2%-%date:~7,2%_%time:~0,2%-%time:~3,2%-%time:~6,2%_library_db.sql"
 SHOW DATABASES;
 CONNECT <database_name>;
 CREATE TABLE <table_name_in_plural> ();
@@ -11,9 +11,8 @@ INSERT INTO <table_name_in_plural>
 Utility Commands
 \! cls
 
-mysqldump -u root -p --databases library_db > "C:\Dev_a\it30a-udtohan\backup\%date:~4%_%date:~4, 2%_%date:~7, 2%_%time:~0, 2%_%time:~3, 2%_%time:~6, 2%_library_db.sql"
-
 mysqldump -u root -p --databases library_db > "C:\Dev_a\it30a-udtohan\backup\%date:~10,4%-%date:~4,2%-%date:~7,2%_%time:~0,2%-%time:~3,2%-%time:~6,2%_library_db.sql"
+
 
 %date:~-4%
 %date:~4,2
