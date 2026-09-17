@@ -88,7 +88,7 @@ VALUES
 -- ("BEMY", "LADY", "BSIT"),
 -- ("GIOV", "BARS", "BSIT");
 ("Shiela", "pearl", "BSIT");
-("Madel", "Udtohan", "BSIT");
+("Madel", "Macalos", "BSIT");
 
 
 
