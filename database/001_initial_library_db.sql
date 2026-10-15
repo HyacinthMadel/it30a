@@ -85,8 +85,11 @@ INSERT INTO students (
 )
 
 VALUES
-("BEMY", "LADY", "BSIT"),
-("GIOV", "BARS", "BSIT");
+-- ("BEMY", "LADY", "BSIT"),
+-- ("GIOV", "BARS", "BSIT");
+("Shiela", "pearl", "BSIT");
+("Madel", "Macalos", "BSIT");
+
 
 
 -- insert statement #2: insert books
